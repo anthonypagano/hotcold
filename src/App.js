@@ -1,28 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NumberInput from './number-input.js';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      inputValue: '',
+      randomValue: Math.floor((Math.random() * 100) + 1)
+    };
+  }
+
+  setDayRate(inputValue) {
+    this.setState({
+      inputValue
+    });
+}
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <NumberInput
+          value={this.state.inputValue}
+          onChange={value => this.setDayRate(value)} />
       </div>
     );
   }
-}
+
+};
 
 export default App;
