@@ -13,6 +13,6 @@ deploy:
   provider: heroku
   api_key:
     secure: 3d1dcf89-2035-4fe9-b681-9ebad93b93bf
-  app: hotcold
+  app: glacial-depths-32500
   on:
     repo: anthonypagano/hotcold
