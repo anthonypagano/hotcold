@@ -12,7 +12,7 @@ branches:
 deploy:
   provider: heroku
   api_key:
-    secure: o6R2Fib5JGPCyLc/Q7NCEHOudSfrwSPmn0Ow/rq+Epn3vi3bvCQAksZW5HPIjzvNCQa/7/ap0G9Utgz7vyplOgWFVi9Tnb4bduXFB4g25TZ/IkiI8NZNWRb/jJ+RuV8DNvxsfcpi0CSCxtfgLMcXzYq2MqJ2Zmqflq1q7mNP74TjYuVneFELvtGQQzlK1/8f4jkZmmrqtBqqaf8xUVDnp+3VioEtuCrzoiQL+G0qX37lTshzUR80O+4hXmU03nbiCZJCfUX20JOQLJAcwjIlZwK5Qw1Tj0U6rWECEsMfdt/kV35/ms9Ju45dI7sbdesShE0s4/OrvvX8WoVzyFGupWVLW8VXVMwwm0933EGMtnXuMz4n9jSH8biZFERsmdN5qGiwEUUMZHDOeOf5LjZGz3ZnPCRGvXUFF0JpSUMs3p3M73ww1gQ0enfo5SD7JNDfiooku9DyW4qXlzDRfWqbInFHhfuP1XgF81h4jdZZbt/rwpXkLuit4YGG4+GrTxRC3WbhicXtkIPQWnDWjTGIgzkkSp53CG3+4qvLoTyVy29FVhqLhL8pyJAL/28CjK9CLbCAj1YaN89aD/bBC8gZicvDmczRTbUQ4lxoHHgUrLYBq47UQg5mE+j7E8S4YsWBB+PDuKwSg3mMYyOdfE34tYQCu4tNkDqAGhD/9fjGnDA=
+    secure: 3d1dcf89-2035-4fe9-b681-9ebad93b93bf
   app: hotcold
   on:
     repo: anthonypagano/hotcold
